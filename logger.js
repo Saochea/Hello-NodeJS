@@ -7,7 +7,7 @@ const info = 'INFO';
 function log(message,level=info){
 	console.log(`${level}: ${message}`);
 }
-
+console.log("ello! World");
 module.exports.error = error;
 module.exports.warnning = warnning;
 modeul.exports.info = info;
